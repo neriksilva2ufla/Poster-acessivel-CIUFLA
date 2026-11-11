@@ -18,7 +18,7 @@ section,.qr-panel{background:var(--paper);border:1px solid var(--line);border-ra
 h2{color:var(--green);margin:0 0 .8rem;font-size:1.55rem;line-height:1.25}h3{color:var(--green2);margin:1.2rem 0 .35rem;font-size:1.12rem}p{margin:.55rem 0}ul,ol{padding-left:1.4rem}li{margin:.45rem 0}
 .qr-panel{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:1.5rem;align-items:center}#qrcode{width:180px;min-height:180px;display:grid;place-items:center;background:#fff;padding:8px;border:1px solid var(--line)}#qrcode img,#qrcode canvas{max-width:100%;height:auto}
 .qr-note,.meta{color:var(--muted);font-size:.95rem}.workflow{counter-reset:step;list-style:none;padding:0}.workflow li{counter-increment:step;position:relative;padding-left:2.6rem;min-height:2rem}.workflow li:before{content:counter(step);position:absolute;left:0;top:0;display:grid;place-items:center;width:1.9rem;height:1.9rem;border-radius:50%;background:var(--green);color:#fff;font-weight:700}
-footer{padding:1rem 1.25rem 2.5rem;color:var(--muted)}
+footer{padding:1rem 1.25rem 2.5rem;color:var(--muted)}.logos-apoio{display:flex;flex-wrap:wrap;gap:2rem;align-items:center;margin-top:1rem}.logos-apoio figure{margin:0;max-width:220px;text-align:center}.logos-apoio img{display:block;max-width:180px;max-height:100px;width:auto;height:auto;margin:0 auto .5rem}.logos-apoio figcaption{font-size:.9rem;color:var(--muted)}
 @media(max-width:600px){.qr-panel{grid-template-columns:1fr}#qrcode{margin:0 auto}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:#fff}section,.qr-panel{break-inside:avoid;box-shadow:none}header{background:#fff;color:var(--ink);border-bottom:2px solid var(--green)}.event{color:var(--ink)}a{color:var(--ink)}}
 </style>
 </head>
@@ -68,7 +68,7 @@ footer{padding:1rem 1.25rem 2.5rem;color:var(--muted)}
 <li>W3C. <cite>Web Content Accessibility Guidelines (WCAG) 2.2</cite>. W3C Recommendation, 2023.</li>
 <li>REYNA, Justo; GABARDO, Emerson; SANTOS, F. S. Governo eletrônico, invisibilidade digital e direitos fundamentais sociais. <cite>Sequência</cite>, n. 85, p. 30–50, 2020.</li>
 </ol></section>
-<section aria-labelledby="creditos"><h2 id="creditos">Agradecimentos</h2><p>O pôster apresenta uma seção de agradecimentos, mas não especifica o texto correspondente.</p></section>
+<section aria-labelledby="creditos"><h2 id="creditos">Agradecimentos</h2><p>À Universidade Federal de Lavras (UFLA) e ao Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), pelo apoio à realização deste trabalho.</p><div class="logos-apoio"><figure><img src="images/ufla.webp" alt="Logotipo da Universidade Federal de Lavras (UFLA)" loading="lazy"><figcaption>Universidade Federal de Lavras (UFLA)</figcaption></figure><figure><img src="images/cnpq.webp" alt="Logotipo do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)" loading="lazy"><figcaption>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</figcaption></figure></div></section>
 </main>
 <footer><p>Versão textual acessível do pôster apresentado no 39º Congresso de Iniciação Científica — CIUFLA 2026. Conteúdo organizado para leitura em celulares, computadores e tecnologias assistivas.</p></footer>
 <script>
